@@ -43,7 +43,7 @@ To build new image you should follow the steps below:
 1. checkout pi-gen  
     ``` git clone https://github.com/RPi-Distro/pi-gen.git pmbuild ```
 2. copy the content of pi-pm3 folder to pmbuild  
-    ``` cp -rp pi-gen pmbuild/ ```
+    ``` cp -rp pi-gen/* pmbuild/ ```
 3. Checkout the arm64 branch of pi-gen  
     ``` cd pmbuild; git checkout arm64 ```
 4. make sure you have a docker server running (or any of it's alternatives https://spacelift.io/blog/docker-alternatives)
@@ -52,3 +52,9 @@ To build new image you should follow the steps below:
 
 On a successful build you should get something like the screenshot blow:
         ![build](images/build.jpg)
+
+
+# CHANGELOG
+
+* v1.1.0
+    - Updated dependencies for debain Trixie.
