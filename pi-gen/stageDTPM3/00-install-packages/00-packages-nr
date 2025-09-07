@@ -17,7 +17,7 @@ lighttpd
 iptables-persistent
 vnstat
 qrencode
-php8.2-cgi
+php8.4-cgi
 openvpn
 wireguard
 jq
